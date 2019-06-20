@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Meissa's Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/7b2eff7831.js"></script>
+  </head>
+  <body>
+    <header>
+      <a id="home" class="nav-anchor"></a>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">MD</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="mr-auto"></div>
+          <div class="navbar-nav text-uppercase">
+            <a class="nav-item nav-link active nav-home" href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link nav-projects" href="#projects"
+              >Projects</a
+            >
+            <a class="nav-item nav-link nav-about" href="#about">About</a>
+          </div>
+        </div>
+      </nav>
+      <!-- Intro -->
+      <a id="intro" class="nav-anchor"></a>
+      <div class="intro container-fluid text-center">
+        <div class="row">
+          <div class="shadowbox">
+            <h4 class="col-sm-12">Full Stack Engineer</h4>
+            <h1 class="col-sm-12">Meissa Dia</h1>
+            <p class="col-sm-12">Let's build!</p>
+            <div class="social">
+              <a href="https://github.com/meissadia" target="_blank">
+                <i class="fab fa-3x fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/meissa" target="_blank">
+                <i class="fab fa-3x fa-linkedin"></i>
+              </a>
+              <a href="https://soundcloud.com/blaxican/albums" target="_blank">
+                <i class="fab fa-3x fa-soundcloud"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- Projects -->
+      <a id="projects" class="nav-anchor"></a>
+      <section class="projects container-fluid">
+        <h1 class="text-left section-title">
+          Projects<a class="float-right" href="#home"
+            ><i class="fas fa-arrow-circle-up"></i
+          ></a>
+        </h1>
+        <!-- Posifocus Web -->
+        <div class="project row p-4">
+          <div class="col-sm-12 col-lg-7 m-auto">
+            <h4 class="tagline text-center">
+              Be Grateful. Get Organized. Stay In Touch.
+            </h4>
+            <h2 class="text-center">Posifocus Web is Live!</h2>
+            <img
+              id="ss-posifocus"
+              src="../assets/pf-hero.jpg"
+              alt="posifocus heroes"
+            />
+            <div class="col-sm-12 text-center">
+              <div class="row">
+                <a
+                  class="btn btn-primary col-sm-5 col-lg-4 my-1 py-3 mx-auto"
+                  href="https://app.posifocus.com"
+                  target="_blank"
+                >
+                  Launch App
+                </a>
+                <a
+                  class="btn btn-dark col-sm-5 col-lg-4 my-1 py-3 mx-auto"
+                  href="https://www.posifocus.com"
+                  target="_blank"
+                >
+                  Visit Site
+                </a>
+              </div>
+            </div>
+            <p class="description">
+              Posifocus is now available as a Progressive Web App, bringing
+              positive productivity to desktop and non-iOS mobile users. Use the
+              CloudSync feature to keep all your devices up-to-date and your
+              priorities straight!
+            </p>
+          </div>
+          <div class="project-spacer">
+            <div class="bar"></div>
+          </div>
+        </div>
+        <!-- Precarity -->
+        <div class="project row px-4">
+          <div class="col-sm-12 col-lg-7 m-auto">
+            <h4 class="tagline text-center">
+              A connected Jeopardy score tracker.
+            </h4>
+            <h2 class="text-center text-uppercase">Precarity</h2>
+            <img
+              id="ss-precarity"
+              src="../assets/precarity.png"
+              alt="precarity game play"
+            />
+            <div class="col-sm-12 text-center">
+              <div class="row">
+                <a
+                  class="btn btn-primary col-sm-5 col-lg-4 my-1 py-3 mx-auto"
+                  href="https://precarity.surge.sh"
+                  target="_blank"
+                >
+                  Launch App
+                </a>
+                <a
+                  class="btn btn-dark col-sm-5 col-lg-4 my-1 py-3 mx-auto"
+                  href="https://github.com/meissadia/precarity"
+                  target="_blank"
+                >
+                  Visit Repo
+                </a>
+              </div>
+            </div>
+            <p class="description">
+              Precarity allows you to connect up to three players and share live
+              score updates. It's cross-platform and free, no sign-up required.
+              I love playing along with Jeopardy and have wanted to build an app
+              like this for a long time. Now, I can finally quantify my Jeopardy
+              domination!
+            </p>
+          </div>
+          <div class="project-spacer">
+            <div class="bar"></div>
+            <div class="extraspace">&nbsp;</div>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <a id="about" class="nav-anchor"></a>
+      <section class="about container-fluid">
+        <h1 class="text-left section-title">
+          About<a class="float-right" href="#home"
+            ><i class="fas fa-arrow-circle-up"></i
+          ></a>
+        </h1>
+        <div class="split">
+          <img
+            id="profile-pic"
+            src="../assets/mdia_sq_sunburst_lq.jpg"
+            alt=""
+          />
+          <div class="bio">
+            <p>
+              I'm on a mission to create software that improves lives, while
+              growing as an individual, teammate, and leader.
+            </p>
+            <p>
+              I aim to uplift and empower those around me because together is
+              the surest path forward.
+            </p>
+
+            <div class="resume-link">
+              <p class="float-left">Let's build!</p>
+              <p class="float-right">
+                <a href="./assets/mdia_2019.pdf" target="_blank">
+                  <i class="fas fa-file-pdf"></i>
+                  Resume
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="social">
+        <a href="https://github.com/meissadia" target="_blank">
+          <i class="fab fa-3x fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/meissa" target="_blank">
+          <i class="fab fa-3x fa-linkedin"></i>
+        </a>
+        <a href="https://soundcloud.com/blaxican/albums" target="_blank">
+          <i class="fab fa-3x fa-soundcloud"></i>
+        </a>
+      </div>
+      <div class="copy">&copy;&nbsp;Meissa Dia 2019</div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function() {
+        // Update Nav on direct link/reload
+        if (location.hash) {
+          $(".nav-item").removeClass("active");
+          $(`.nav-item.nav-${location.hash.substr(1)}`).addClass("active");
+        }
+
+        // Nav click handler
+        $(".nav-item").click(function() {
+          $(".nav-item").removeClass("active");
+          $(this).toggleClass("active");
+        });
+
+        // Back to Top handler
+        $(".section-title a").click(function() {
+          const target = $(this)[0].href.split("#")[1];
+          $(".nav-item").removeClass("active");
+          $(`.nav-item.nav-${target}`).addClass("active");
+        });
+
+        // Auto-collapse menu on selectioin handler
+        $(".navbar-collapse a").click(function() {
+          $(".navbar-collapse").collapse("hide");
+        });
+      });
+    </script>
+  </body>
+</html>

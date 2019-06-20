@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css?family=Rajdhani|Dosis|Swanky+and+Moo+Moo&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-item {
+  transition: color 0.5s, letter-spacing 0.5s;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item.active {
+  color: #1aa5d4 !important;
+  letter-spacing: 2px;
+}
+
+body {
+  background: black;
+  margin-top: 66px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar .navbar-brand {
+  font-family: "Swanky and Moo Moo", cursive;
+  padding: 0;
+  font-size: 2em;
+}
+
+.nav-anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+}
+
+.nav-item.nav-link {
+  text-transform: uppercase;
+}
+
+#ss-precarity {
+  width: 400px;
+}
+
+.section-title {
+  font-family: "Rajdhani", sans-serif;
+  color: white;
+  padding: 10px 20px;
+}
+
+.section-title i {
+  transition: all 0.5s;
+  transform: translateY(5px);
+  color: #1aa5d4;
+}
+
+.section-title i:hover {
+  color: #1aa5d4;
+  transform: translateY(0);
+}
+
+.intro {
+  height: calc(100vh - 55px);
+  width: 100%;
+  background: url("../assets/shaun____-1677850-unsplash.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #020302;
+
+  color: white;
+  font-family: "Swanky and Moo Moo", cursive;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro .row {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.intro .shadowbox {
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.intro #profile-pic {
+  width: 50vw;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.intro p,
+.intro h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+}
+
+.intro h1 {
+  font-size: 3.5rem;
+}
+
+.intro .social {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 10px 0;
+}
+
+.intro .social a {
+  padding: 0;
+  color: #1aa5d4;
+  transition: all 1s;
+}
+
+.intro .social a:hover {
+  padding: 0 auto;
+  color: #fff;
+  transform: scale3d(1.3, 1.3, 1);
+}
+
+.projects {
+  background: #555;
+  color: black;
+}
+
+div.project.row {
+  background: #ddd;
+  padding-bottom: 0;
+}
+
+.project-spacer {
+  width: 100%;
+}
+
+.project-space .extraspace {
+  height: 30px;
+}
+
+.project-spacer .bar {
+  width: 55%;
+  border-bottom: 3px solid #1aa5d4;
+  margin: 20px auto;
+  background: transparent;
+  display: block;
+  border-radius: 3px;
+}
+
+.project h2 {
+  font-family: "Dosis", sans-serif;
+  font-size: 2.4em;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.project .description {
+  margin: 40px auto;
+  font-size: 1.3em;
+  font-family: "Dosis", sans-serif;
+  text-align: justify;
+}
+
+#ss-posifocus,
+#ss-precarity {
+  width: 100%;
+  max-width: 720px;
+  margin: 10px auto 20px auto;
+  display: block;
+}
+
+.tagline {
+  font-family: "Dosis", sans-serif;
+  font-style: italic;
+}
+
+a.btn {
+  text-transform: uppercase;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background: skyblue;
+  background: #222;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .copy {
+  width: 100%;
+  color: #1aa5d4;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+footer .social {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  padding: 10px 0 30px 0;
+  width: 100%;
+}
+
+footer .social a {
+  padding: 0;
+  margin: 0 20px;
+  color: #1aa5d4;
+  transition: all 0.5s;
+}
+
+footer .social a:hover {
+  padding: 0 auto;
+  color: #fff;
+  transform: scale3d(1.2, 1.2, 1);
+}
+
+.about {
+  background: rgba(136, 66, 29, 0.651);
+  background: rgba(0, 0, 0, 0.6);
+  background-image: url("../assets/charles-postiaux-1689272-unsplash.jpg");
+  background-size: cover;
+  background-position: right;
+  padding: 0;
+  margin: 0;
+  background-blend-mode: overlay;
+}
+
+.about .split {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.about .bio {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+  max-width: 400px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.bio p {
+  padding-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.bio .resume-link a:hover i {
+  transform: translateY(-5px);
+}
+
+.bio .resume-link a:hover {
+  color: #1ebef3;
+  border-bottom: 2px solid #1ebef3;
+}
+
+.bio .resume-link,
+.bio .resume-link i {
+  transition: all 0.5s;
+  transform: translateY(0);
+}
+
+.bio .resume-link a {
+  text-decoration: none;
+  color: #1aa5d4;
+  font-weight: 100;
+  border-bottom: 2px solid transparent;
+}
+
+.about .section-title {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 25px;
+}
+
+#profile-pic {
+  max-width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.btn-primary {
+  background-color: #1aa5d4 !important;
+}
+
+.btn-primary:hover {
+  background-color: #1688ad !important;
+}
+
+@media screen and (max-width: 767px) {
+  .projects .tagline {
+    font-size: 1.3em;
+  }
+
+  .projects h2 {
+    font-size: 2em;
+  }
+}
