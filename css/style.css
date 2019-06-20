@@ -135,19 +135,54 @@ div.project.row {
 
 .project-spacer {
   width: 100%;
+  padding-bottom: 25px;
 }
 
-.project-space .extraspace {
-  height: 30px;
+.extraspace {
+  height: 35px;
+  background: inherit;
+  flex-basis: 100%;
+}
+
+.project-spacer .fill {
+  flex: 1;
+  height: 1px;
+  background-color: #1ebef3;
+  justify-self: center;
 }
 
 .project-spacer .bar {
   width: 55%;
-  border-bottom: 3px solid #1aa5d4;
+  border-bottom: 2px solid #1aa5d4;
   margin: 20px auto;
   background: transparent;
   display: block;
   border-radius: 3px;
+}
+
+.project-spacer .triangles .middle {
+  padding: 0 20px;
+  transform: translateY(-2px);
+  font-size: 1.2em;
+}
+
+.project-spacer .triangles {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transform: translateY(3px);
+}
+
+.project-spacer .triangles span {
+  padding: 0 5px;
+  margin: 0;
+  height: auto;
+}
+
+.project-spacer .mid {
+  color: #1aa5d4;
 }
 
 .project h2 {
@@ -158,7 +193,7 @@ div.project.row {
 }
 
 .project .description {
-  margin: 40px auto;
+  margin: 30px auto;
   font-size: 1.3em;
   font-family: "Dosis", sans-serif;
   text-align: justify;
