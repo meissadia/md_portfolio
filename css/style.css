@@ -36,10 +36,6 @@ body {
   text-transform: uppercase;
 }
 
-#ss-precarity {
-  width: 400px;
-}
-
 .section-title {
   font-family: "Rajdhani", sans-serif;
   color: white;
@@ -199,8 +195,7 @@ div.project.row {
   text-align: justify;
 }
 
-#ss-posifocus,
-#ss-precarity {
+.screenshot {
   width: 100%;
   max-width: 720px;
   margin: 10px auto 20px auto;
