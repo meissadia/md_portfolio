@@ -56,7 +56,7 @@ body {
 .intro {
   height: calc(100vh - 55px);
   width: 100%;
-  background: url("../assets/shaun____-1677850-unsplash.jpg");
+  background: url("../assets/intro_bg.lq.jpg");
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -256,9 +256,9 @@ footer .social a:hover {
 .about {
   background: rgba(136, 66, 29, 0.651);
   background: rgba(0, 0, 0, 0.6);
-  background-image: url("../assets/charles-postiaux-1689272-unsplash.jpg");
+  background-image: url("../assets/about_bg-cropped.lq.jpg");
   background-size: cover;
-  background-position: right;
+  background-position: center;
   padding: 0;
   margin: 0;
   background-blend-mode: overlay;
