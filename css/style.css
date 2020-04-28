@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Rajdhani|Dosis|Swanky+and+Moo+Moo&display=swap");
 
+#home {
+  position: absolute;
+  top: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -40,6 +45,7 @@ body {
   font-family: "Rajdhani", sans-serif;
   color: white;
   padding: 10px 20px;
+  margin-bottom: 0;
 }
 
 .section-title i {
@@ -53,8 +59,18 @@ body {
   transform: translateY(0);
 }
 
+.section-title a:first-child {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.section-title a:first-child:hover {
+  color: #1aa5d4;
+}
+
 .intro {
-  height: calc(100vh - 55px);
+  height: calc(100vh - 55px - 76px);
   width: 100%;
   background: url("../assets/intro_bg.lq.jpg");
   background-size: auto 100%;
