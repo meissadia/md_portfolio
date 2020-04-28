@@ -45,16 +45,17 @@
           <h1 class="col-sm-12">Meissa Dia</h1>
           <p class="col-sm-12">Let's build!</p>
           <div class="social">
-            <a href="https://github.com/meissadia" target="_blank">
+            <a href="https://github.com/meissadia" target="_blank" data-label='Code'>
               <i class="fab fa-3x fa-github"></i>
             </a>
-            <a href="https://linkedin.com/in/meissa" target="_blank">
+            <a href="https://linkedin.com/in/meissa" target="_blank" data-label='Career'>
               <i class="fab fa-3x fa-linkedin"></i>
             </a>
-            <a href="https://soundcloud.com/blaxican/albums" target="_blank">
+            <a href="https://soundcloud.com/blaxican/albums" target="_blank" data-label='Creative'>
               <i class="fab fa-3x fa-soundcloud"></i>
             </a>
           </div>
+          <div id="intro-category">&nbsp;</div>
         </div>
       </div>
     </div>
@@ -358,6 +359,22 @@
       $(".navbar-collapse a").click(function () {
         $(".navbar-collapse").collapse("hide");
       });
+
+      // Shadowbox link descriptors
+      const textOnHover = e => {
+        const text = e.currentTarget.getAttribute('data-label');
+        $('#intro-category').html(text);
+        $('#intro-category').addClass('visible');
+      }
+
+      const textOffHover = () => {
+        $('#intro-category').html('');
+        $('#intro-category').removeClass('visible');
+      }
+
+      $(".social a").hover((e) => textOnHover(e), () => textOffHover())
+      $(".social a").focus((e) => textOnHover(e))
+      $(".social a").focusout(() => textOffHover())
     });
   </script>
 </body>
